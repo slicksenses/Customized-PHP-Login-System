@@ -19,6 +19,6 @@ This is login system includes autoloading of classes, material design, middlewar
   #### Class Autholoading - All classes located in "lib" directory will be loaded dynamically
   #### Helpers/Config - Helpers for assets, base url and more. You could also add more helpers on the lib directory.
   #### Class Functions 
-  ###### $config->asset() - point to public folder
+  ###### $config->asset() - pointing to public folder.
   ###### $config->base_url() - change the value of the base url depending on your local ip address (e.g: http://localhost:8000)
   ###### $config->session_timeout($timeout=1800) - This will be used to set expiration onto your session. Defaul is 1800, change it if necessary
